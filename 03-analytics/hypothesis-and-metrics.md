@@ -1,17 +1,28 @@
-# Hypothesis & Success Metrics
+# Hypothesis & Success Metrics (Module 3)
 
-> Module 3 · Use Analytics and Metrics for Data-Driven Decisions — ★ Deliverable 3
->
-> _You'll complete this during Module 3._
+## Pre-work · Hypothesis check
+- **Role , who you are solving for (from M2):** Frontline Logistics Coordinator responsible for planning, tracking, and updating daily shipments across multiple customers and carriers.
+- **Goal , what this user is ultimately trying to achieve:** Complete shipment planning and updates quickly and accurately while minimizing delays and manual effort.
+- **Friction / moment of misery , the specific pain blocking their goal:** RouteLogic is too complex and slow for everyday tasks, forcing coordinators to switch between multiple screens, spreadsheets, emails, and manual processes to complete shipments.
+- **Current workaround , the external tool or manual process they rely on (M2):** Coordinators export shipment data to Excel, verify information through emails and carrier portals, manually track updates, coordinate changes through Teams or email, and then re-enter final updates into RouteLogic.
+- **Problem Hook , your one-sentence framing of the business crisis (M1):** We must reduce customer churn and protect enterprise revenue by eliminating the operational friction that forces logistics coordinators to rely on manual workarounds instead of our platform.
+- **Value Proposition , the outcome your initiative promised to deliver (M1):** For logistics coordinators, we will deliver a streamlined workflow that reduces administrative effort and enables faster shipment planning because enterprise customers need a simple, efficient solution to stay productive and continue trusting our platform.
 
-## Finalized product hypothesis
+## Read your data snapshots
+- **Does the funnel data confirm your M2 friction point, or does it tell a different story? Note where the numbers align with the qualitative pain you found and where they diverge.:** _(not filled in)_
+- **Do the retention patterns align with the workaround your M2 persona used to find content? Note what the Mo. 0→1 drop suggests about the onboarding experience your persona described as frustrating.:** _(not filled in)_
+- **Does the LTV gap and the content mix (61% trending for Wanderers) confirm the moment of misery your persona described? Note which segment your persona is in and whether the data confirms their pain.:** _(not filled in)_
+- **Does the low adoption confirm your persona is burdened by tools they don’t use? Note whether the low scheduling adoption (42%) for coordinators matches your M2 moment of misery.:** Yes, but with an important nuance. Coordinators strongly adopt the three capabilities essential to daily dispatch—Live Dispatch Board (91%), Route Optimizer (85%), and Compliance Checklist (77%)—while adoption falls sharply for Shift Scheduling (42%) and AI Predictive ETAs (23%). This confirms that the persona is not rejecting RouteLogic overall; they rely on its core operational capabilities but avoid lower-value or more burdensome parts of the broader toolset. This strengthens our “Strip & Accelerate” strategy: optimize the essential frontline workflow rather than adding more functionality.
+- **Does the workflow data match the manual process or hack you documented in M2? Note whether the specific drop-offs or time gaps explain why your persona avoids the digital tool.:** Yes. The workflow data strongly validates the manual-workaround problem, but it pinpoints the friction more precisely than our qualitative research. Completion falls from 71% at route assignment to 48% at compliance checks and only 31% at shift handoff. Compliance checks take 14.6 minutes versus a 3-minute benchmark—nearly 5× longer. This suggests that coordinators leave or bypass RouteLogic not simply because the whole platform is slow, but because specific downstream administrative steps create severe friction and encourage manual workarounds.
+- **Look at the CSAT heatmap. Which specific cell most directly maps to your persona’s friction? Note how the NPS trend justifies the urgency of your M1 Problem Hook.:** The Coordinator × Compliance cell (2.2/5) most directly validates our persona's core workflow friction, while Reporting is even lower at 1.3/5 and reinforces the broader administrative burden. The urgency is clear: Coordinator NPS has fallen from +18 to -12, daily time lost to manual workarounds has increased from approximately 9 to 31 minutes, and 4 of 5 accounts now cite complexity as a churn reason. This quantitatively validates the business risk identified in our Module 1 Problem Hook.
 
-> Based on [qual + quant evidence], I believe that [solving X] for [persona] will result in [outcome], as measured by a [X%] change in [success metric]. I will protect [guardrail metric] and make a go/no-go decision after [decision window].
-
-## Success metrics
-
-| Metric | Type | Target | Why it matters |
-|---|---|---|---|
-| _North-star_ | | _____ | _____ |
-| _Leading indicator_ | | _____ | _____ |
-| _Guardrail_ | | _____ | _____ |
+## Step 3 · Craft your hypothesis
+- **Qualitative evidence (from M2) , quote the specific friction / moment of misery for your persona:** Frontline logistics coordinators repeatedly leave RouteLogic to use spreadsheets, emails, carrier portals, and manual tracking because routine operational workflows require too many steps and duplicate effort.
+- **Quantitative evidence (from M3) , name the metric or data point that confirms the pain; cite the number:** Compliance checks take 14.6 minutes versus a 3-minute benchmark, workflow completion drops to 48% at compliance and 31% at shift handoff, and coordinators lose 31 minutes daily to manual workarounds.
+- **Persona , role, goal, and the friction you confirmed in the reconciliation steps:** Frontline Logistics Coordinator who needs to plan, execute, and update daily shipments quickly and accurately but is blocked by complex administrative workflows and manual workarounds.
+- **Problem you are solving , one sentence describing the specific friction this initiative removes:** Excessive friction in compliance and downstream dispatch workflows forces coordinators into manual workarounds, increasing task time and reducing workflow completion.
+- **Strategic outcome , what behaviour change do you expect, and how does it map to retention / revenue / churn?:** Increase end-to-end digital workflow completion and reduce manual workarounds, improving coordinator productivity and satisfaction while reducing complexity-driven churn risk.
+- **Primary success metric (initiative signal) , the leading indicator that tells you the gap is closing:** Increase end-to-end Coordinator Daily Dispatch Workflow completion from 18% to at least 35%.
+- **Guardrail metric (product signal) , the metric that must NOT drop; it protects your existing base:** Maintain Live Dispatch Board coordinator adoption at ≥90%.
+- **Decision window , how much time or data before you scale, pivot, or kill? minimum threshold to proceed?:** Run an 8-week pilot and scale only if end-to-end workflow completion reaches at least 35% while Live Dispatch Board adoption remains ≥90%.
+- **Draft your full hypothesis sentence , one to three sentences; quote the metric, name the persona, name the outcome:** Based on qualitative evidence of manual workarounds and quantitative evidence that compliance takes 14.6 minutes versus a 3-minute benchmark and end-to-end workflow completion falls to 18%, I believe simplifying compliance and downstream dispatch workflows for Frontline Logistics Coordinators will increase digital workflow completion and reduce manual effort. We will target an increase in end-to-end workflow completion from 18% to at least 35%, while maintaining Live Dispatch Board adoption at ≥90%, and make a go/no-go decision after an 8-week pilot.
