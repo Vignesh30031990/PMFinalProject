@@ -1,8 +1,8 @@
-# My Product — Product Management Final Project
+# RouteLogic Velocity — One-Click Compliance Checklist
 
-> My final project for Product School's **Product Management** certification. One product concept — **StreamLine Spotlight** or **RouteLogic Velocity** (or my own initiative) — taken from a raw problem to a launch-ready concept across six in-class labs, no homework required.
+My final project for Product School's Product Management certification focuses on **RouteLogic Velocity** and the **One-Click Compliance Checklist**. The project addresses a validated **14.6-minute compliance bottleneck** for frontline logistics coordinators by introducing a smart pre-filled workflow that enables coordinators to review, correct, validate, and submit compliance information in one flow.
 
-This is a **template repo**. Click **Use this template → Create a new repository**, name it something like `pm-final-project`, and fill in one folder per module as you go. This is an **individual project** — your work is yours alone.
+This repository contains the deliverables developed across the Product Management certification, from problem definition and discovery through analytics, roadmap/PRD, experimentation, GTM planning, and individual reflection.
 
 ---
 
@@ -10,43 +10,64 @@ This is a **template repo**. Click **Use this template → Create a new reposito
 
 | # | Deliverable | Module | Status | File |
 |---|---|---|---|---|
-| 1 | **Problem Hook & Value Proposition** (+ hypothesis) | M1 | ☐ | `01-product-thinking/problem-hook.md` |
-| 2 | **Competitive Analysis & Journey Map** | M2 | ☐ | `02-discovery/competitive-and-journey.md` |
-| 3 | **Hypothesis & Success Metrics** | M3 | ☐ | `03-analytics/hypothesis-and-metrics.md` |
-| 4 | **Roadmap, PRD & Prototype** | M4 | ☐ | `04-roadmap/roadmap-prd-prototype.md` |
-| 5 | **Experimentation Plan** | M5 | ☐ | `05-experimentation/experimentation-plan.md` |
-| 6 | **GTM Strategy & Success Dashboard** | M6 | ☐ | `06-launch/gtm-and-dashboard.md` |
-| 6 | **Individual Insights** (reflection) | M6 | ☐ | `06-launch/individual-insights.md` |
-| ★ | **Final Project Presentation** (the deck you submit) | M6 | ☐ | `06-launch/final-presentation.md` |
+| 1 | Problem Hook & Value Proposition (+ hypothesis) | M1 | ☑ | `01-product-thinking/problem-hook.md` |
+| 2 | Competitive Analysis & Journey Map | M2 | ☑ | `02-discovery/competitive-and-journey.md` |
+| 3 | Hypothesis & Success Metrics | M3 | ☑ | `03-analytics/hypothesis-and-metrics.md` |
+| 4 | Roadmap, PRD & Prototype | M4 | ☑ | `04-roadmap/roadmap-prd-prototype.md` |
+| 5 | Experimentation Plan | M5 | ☑ | `05-experimentation/experimentation-plan.md` |
+| 6 | GTM Strategy & Success Dashboard | M6 | ☑ | `06-launch/gtm-and-dashboard.md` |
+| 7 | Individual Insights (reflection) | M6 | ☑ | `06-launch/individual-insights.md` |
+| ★ | Final Project Presentation (the deck you submit) | M6 | ☐ | `06-launch/final-presentation.md` |
+
+---
 
 ## The project in one sentence
 
-_What is your product concept, who is it for, and what's the single bet you're making?_
+**RouteLogic Velocity's One-Click Compliance Checklist turns a 14.6-minute compliance bottleneck into a fast, pre-filled workflow that helps frontline logistics coordinators review, correct, validate, and submit compliance information without leaving their dispatch workflow.**
 
-___
+---
+
+## Prototype
+
+**One-Click Compliance Checklist:**  
+https://route-swift-check.lovable.app
+
+---
 
 ## How to submit
 
-- Turn the deliverable files into your final deck (Google Slides or PDF). The quickest path: use the **Final Project Deliverables Template**, or paste your files into an AI tool like **Gamma** or **Canva** (see `06-launch/final-presentation.md`).
-- Submit your own copy to the LMS within **7 days** of your cohort ending.
+- Turn the deliverable files into your final deck (Google Slides or PDF), following the Product School final-project instructions.
+- Generate and review the final presentation using the completed module deliverables.
+- Commit the final presentation to `06-launch/final-presentation.md`.
+- Submit your repository URL and required final-project/deck link to the learning platform.
+
+---
 
 ## Repo structure
 
-```
+```text
 pm-final-project/
-├── README.md                              ← this dashboard
+├── README.md
 ├── 01-product-thinking/
-│   └── problem-hook.md                    ← M1: problem hook + value prop   ★ Deliverable 1
+│   └── problem-hook.md
 ├── 02-discovery/
-│   └── competitive-and-journey.md         ← M2: workaround + journey map     ★ Deliverable 2
+│   └── competitive-and-journey.md
 ├── 03-analytics/
-│   └── hypothesis-and-metrics.md          ← M3: hypothesis + success metrics ★ Deliverable 3
+│   └── hypothesis-and-metrics.md
 ├── 04-roadmap/
-│   └── roadmap-prd-prototype.md           ← M4: roadmap, PRD + prototype      ★ Deliverable 4
+│   └── roadmap-prd-prototype.md
 ├── 05-experimentation/
-│   └── experimentation-plan.md            ← M5: experimentation plan          ★ Deliverable 5
+│   └── experimentation-plan.md
 └── 06-launch/
-    ├── gtm-and-dashboard.md               ← M6: GTM plan + success dashboard  ★ Deliverable 6
-    ├── individual-insights.md             ← M6: friction, learnings, aha
-    └── final-presentation.md              ← M6: how to build & submit the deck ★ Final submission
+    ├── gtm-and-dashboard.md
+    ├── individual-insights.md
+    └── final-presentation.md
 ```
+
+---
+
+## Project focus
+
+The project prioritizes the **One-Click Compliance Checklist** as the core RouteLogic Velocity feature. The experience uses available shipment information to pre-fill compliance fields, clearly identifies missing or invalid required information, allows coordinators to correct fields, validates requirements before submission, and supports one-action submission with confirmation.
+
+The product direction intentionally keeps advanced analytics, AI capabilities, and external integrations outside the initial scope so the project can test whether simplifying the compliance workflow reduces coordinator effort and improves end-to-end workflow completion.
